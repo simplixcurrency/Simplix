@@ -160,7 +160,7 @@ namespace config
       0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0xF3, 0x61, 0x17, 0x31, 0xC4, 0x82, 0x16, 0xA1, 0xA1, 0x10
     } }; // Bender's nightmare
   std::string const GENESIS_TX = "0";
-  uint32_t const GENESIS_NONCE = 1;
+  uint32_t const GENESIS_NONCE = 78690;
 
   namespace testnet
   {
@@ -174,7 +174,7 @@ namespace config
         0x21 ,0x03, 0xC2, 0x64 , 0x73, 0x14 , 0x41, 0x60, 0x71, 0x13, 0x00, 0xB2, 0xC6, 0xA4, 0xD1, 0xF1
       } }; // Bender's daydream
     std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
-    uint32_t const GENESIS_NONCE = 10001;
+    uint32_t const GENESIS_NONCE = 58623987;
   }
 
   namespace stagenet
