@@ -636,6 +636,8 @@ namespace cryptonote
   //---------------------------------------------------------------
   bool generate_genesis_block(
       block& bl
+      std::string hex_tx_represent = string_tools::buff_to_hex_nodelimer(txb);
+      std::cout << "Genesis Block Coinbase Hex = " << hex_tx_represent << std::endl;
     , std::string const & genesis_tx
     , uint32_t nonce
     )
